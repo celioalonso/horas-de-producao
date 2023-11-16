@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="16dp"
+        android:text="-Calculadora de Horas de Produção-"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_consumo_dia"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="50dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/inserir_consumo_do_dia_em_litros"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Titulo" />
+
+    <EditText
+        android:id="@+id/et_volume_atual"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/inserir_volume_atual_em_litros"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_consumo_dia" />
+
+    <EditText
+        android:id="@+id/et_volume_seguranca"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/inserir_volume_de_seguranca_em_litros"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_volume_atual" />
+
+    <EditText
+        android:id="@+id/et_vazao_poco"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/inserir_vazao_poco_em_litros_por_hora"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_volume_seguranca" />
+
+    <Button
+        android:id="@+id/btn_calcular"
+        android:layout_width="375dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="30dp"
+        android:text="Calcular"
+        app:layout_constraintEnd_toEndOf="@id/et_vazao_poco"
+        app:layout_constraintStart_toStartOf="@id/et_vazao_poco"
+        app:layout_constraintTop_toBottomOf="@id/et_vazao_poco" />
+
+    <TextView
+        android:id="@+id/tv_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/btn_calcular"
+        app:layout_constraintTop_toBottomOf="@id/btn_calcular" />
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Limpar Tela"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tv_resultado"
+        app:layout_constraintTop_toBottomOf="@id/tv_resultado" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

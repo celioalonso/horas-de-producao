@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Horas de Producao</string>
+    <string name="inserir_consumo_do_dia_em_litros">Inserir Consumo do Dia (em litros):</string>
+    <string name="inserir_volume_atual_em_litros">Inserir Volume Atual (em litros):</string>
+    <string name="inserir_volume_de_seguranca_em_litros">Inserir Volume de Seguranca (em litros):</string>
+    <string name="inserir_vazao_poco_em_litros_por_hora">Inserir Vazão/Poço (em litros por hora):</string>
+</resources>
