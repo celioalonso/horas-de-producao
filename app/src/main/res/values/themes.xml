@@ -1,9 +1,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Definindo a nova cor principal -->
+    <color name="my_custom_primary">#1c449b</color>
+
     <!-- Base application theme. -->
     <style name="Base.Theme.HorasDeProducao" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/my_custom_primary</item>
+        <item name="colorOnPrimary">@color/white</item> <!-- Defina a cor do texto na barra principal -->
     </style>
 
-    <style name="Theme.HorasDeProducao" parent="Base.Theme.HorasDeProducao" />
+    <!-- Tema derivado -->
+    <style name="Theme.HorasDeProducao" parent="Base.Theme.HorasDeProducao">
+        <!-- Customize your theme here. -->
+    </style>
+
 </resources>
