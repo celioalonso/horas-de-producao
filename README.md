@@ -15,6 +15,10 @@ Meu contato:
  <a href = "mailto:taonlinedev@gmail.com"><img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
           
   </div>     
-  ![WhatsApp Image 2023-11-17 at 16 19 28](https://github.com/celioalonso/horas-de-producao/assets/80286922/9772cf57-81fe-4dc2-8f36-79ba2bd1fec5)
-![WhatsApp Image 2023-11-17 at 16 19 43](https://github.com/celioalonso/horas-de-producao/assets/80286922/a7b14ab3-b481-409c-9237-b4c71e2d6cb8)
+![horas_producaofoto1](https://github.com/celioalonso/horas-de-producao/assets/80286922/f79e56ca-1cc7-47ae-a8f7-ca431c873e5e)
+
+![horas_producaofoto2 ](https://github.com/celioalonso/horas-de-producao/assets/80286922/710e3c5b-ad0d-4a0f-a431-a2e435043b5f)
+
+
+ 
 
