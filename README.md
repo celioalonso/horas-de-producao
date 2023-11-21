@@ -17,7 +17,8 @@ Meu contato:
   </div>     
 
 
-![horas_producao](https://github.com/celioalonso/horas-de-producao/assets/80286922/c1bd82bb-9b06-41f1-a1f2-ac330baf25fd)
+
+![horas_producao1](https://github.com/celioalonso/horas-de-producao/assets/80286922/d6d1dbbe-6395-4972-b2cd-a23fd026ee0a)
 
 
  
